@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    color: black;
+    background-image: linear-gradient(to bottom, #D9ED92, #184E77);
+}
