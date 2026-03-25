@@ -29,7 +29,7 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 260px;
-    height: 528px;
+    height: 558px;
     background-color: #E0E1DD;
     border-radius: 20px;
     overflow: hidden;
@@ -67,6 +67,43 @@ article#formulario > p{
     margin-bottom: 10px;
 }
 
+div.campo{
+    border: 2px solid #415a77;
+    background-color: #415a77;
+    margin: 10px 0px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    color: #BAD6F7;
+
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #B5C0CD;
+    color: #0D1B2A;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);
+    padding: 4px;
+
+}
+
+div.campo > input::placeholder{
+    color: #0D1B2A;
+}
+
 .bt-enviar{
     display: block;
     height: 40px;
@@ -83,6 +120,7 @@ article#formulario > p{
 .bt-enviar:hover{
     background-color: #1b263b;
     box-shadow: inset 0px 0px 10px #415a77;
+    color: #B5C0CD;
     transition: 0.4s;
 }
 
@@ -104,7 +142,7 @@ article#formulario > p{
 .esq-senha:hover{
     background-color: #415a77;
     color: #E0E1DD;
-    box-shadow: inset 0px 0px 3px #0D1B2A;
+    box-shadow: inset 0px 0px 10px #0D1B2A;
     transition: 0.4s;
 }
 
