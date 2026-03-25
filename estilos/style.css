@@ -28,8 +28,8 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 500px;
+    width: 260px;
+    height: 528px;
     background-color: #E0E1DD;
     border-radius: 20px;
     overflow: hidden;
@@ -63,4 +63,51 @@ article#formulario > h1{
 
 article#formulario > p{
     text-align: justify;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.bt-enviar{
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    border: none;
+}
+
+.bt-enviar:hover{
+    background-color: #1b263b;
+    box-shadow: inset 0px 0px 10px #415a77;
+    transition: 0.4s;
+}
+
+.esq-senha{
+    display: block;
+    margin-top: 10px;
+    padding-top: 8px;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #E0E1DD;
+    border-radius: 5px;
+    color: #415a77;
+    border: 1px solid #415a77;
+}
+
+.esq-senha:hover{
+    background-color: #415a77;
+    color: #E0E1DD;
+    box-shadow: inset 0px 0px 3px #0D1B2A;
+    transition: 0.4s;
+}
+
+a.esq-senha > span{
+    font-size: 0.9em;
 }
